@@ -1,0 +1,90 @@
+# Dev
+# RACK_ENV:                   development
+# RAILS_ENV:                  development
+
+FACEBOOK_SECRET:               "8ba21cd9780fb51e3ab869478bc1758a"
+FACEBOOK_KEY:                  "1768774920049647"
+FACEBOOK_APP_ID:            "1888173691441979"
+GOOGLE_APP_ID:              "590505917724-1s4tmhfb5mv5tac7lfvidv4i079c14in.apps.googleusercontent.com"
+GOOGLE_APP_SECRET:          "O_QFwDQ6mg5obVuL1dsjYeav"
+
+MEMCACHIER_SERVERS:         "127.0.0.1:11211"
+MEMCACHIER_USERNAME:        "memcache"
+
+# Prod
+AWS_ACCESS_KEY_ID:          AKIAJJZGW5KA6KQO6SVA
+AWS_ATTACHMENTS_DIRECTORY:  appsforgood-production-new/alchemy-attachments
+AWS_PICTURES_DIRECTORY:     appsforgood-production-new/alchemy-pictures
+AWS_SECRET_ACCESS_KEY:      0VnnzNpRMRq9op4Reva8gjveCRRkJfLF/4esEzmg
+CDN_URL:                    https://d1923f6nimyuyq.cloudfront.net
+RACK_ENV:                   production
+RAILS_ENV:                  production
+S3_BUCKET_NAME:             appsforgood-production-new
+
+STUDENT_BIRTHYEAR_KEY:      "525dfe834f1b8cfec7a5bebf3c4bd65ce4dcfd7bb57e6908a6971dba2fb0c53a76bcb80289636994c2545b35360a5a65924956c02f939ef677ce84c9e27f4431"
+STUDENT_GENDER_KEY:         "bb582443d26bab751b7d648e830934e8284bbb1a4e5f0eb95fe45735074f2c906a2dc6a7fe025da7ddcb6a506576ff16255f6ceff480c8bb6fa097b0756dfefc"
+STUDENT_FIRSTNAME_KEY:      "b88fa0e053015322e3920add5b41b6e692c74bc9e254ff57ac56e1dff815c3063116dd9428b768182e8e33799a808dfa5d23da84d95ce722eaa31be3bdbbadb5"
+STUDENT_LASTNAME_KEY:       "28355c8fa49710fa73f19cbb1139f0e8364e7cfa38176270912e6f544a40087e121f975b6d7016d283eca079ffb639eb8c52b0c5e7e71f13148c35b867242b5e"
+STUDENT_COURSECODE_KEY:     "23fcc9bbd44db714c7c9c9dbb9fdb3efd98d565212bacc82157e7943184ee54352198b341ab0b6b8bad6ab3e72a3629cd39e16ea7eb60d347d982557a7630571"
+
+# stg
+#AWS_ACCESS_KEY_ID:          AKIAJJZGW5KA6KQO6SVA
+#AWS_ATTACHMENTS_DIRECTORY:  appsforgood-staging-alchemy-attachments
+#AWS_PICTURES_DIRECTORY:     appsforgood-staging-alchemy-pictures
+#AWS_SECRET_ACCESS_KEY:      0VnnzNpRMRq9op4Reva8gjveCRRkJfLF/4esEzmg
+#CDN_URL:                    https://d1zozggduwdy2.cloudfront.net
+#RACK_ENV:                   staging
+#RAILS_ENV:                  staging
+
+
+CUSTOMER_IO_API_KEY:        cd77ae8aae02366b155d
+CUSTOMER_IO_SITE_ID:        df421467e775124d69d2
+DEVISE_SECRET_KEY:          b5d6956d18e44d0a8aa40c4a5185c0c19dc0b128cf5ba1423bc06ee173a95b91de056a322ae6932495a1f022ee04275a1604ecd6dea5f33491401a7613c93
+DISCOURSE_EDUCATOR_API_KEY: 93ba80334490414704c0830d847bcf397f755c9ec7825cc7c327655e25cfbb13
+DISCOURSE_SECRET:           f50a915744eb4b2eb649e50473ecf051e724366f39afaa820e3a1d3c2adb64aa73d1308a94e3e2fdfffacddef831b02f4908019ec359844aec63a6943d58f9d6
+DISCOURSE_SSO_URL:          http://community-staging-afg.herokuapp.com/session/sso_login
+ERROR_PAGE_URL:             http://s3-eu-west-1.amazonaws.com/appsforgood-assets/maintenance/error.html
+FELLOWSHIP_URL:             http://fellowship.appsforgood.org
+GOOGLE_API_KEY:             "magickey"
+GOOGLE_MAPS_API_URL:        //maps.google.com/maps/api/js?&sensor=false
+HEROKU_POSTGRESQL_TEAL_URL: postgres://gpvblpasrhblxj:qGvZC10LGI0ovzd90ax_6ZPdY0@ec2-204-236-226-63.compute-1.amazonaws.com:5432/dbas7rfhdq8uk2
+KEEN_PROJECT_ID:            530f4206ce5e4365b1000006
+KEEN_READ_KEY:              e78cb64100f50d51e8ae0a74ed155fadf5007fa4ef863173ea29ea2b40c1fbc1e48a8c3444be21efb0b74a41cc0ef0a8bfb3f95ed56abbbbe79f0e0c46822674bb24c56f81537f458e6087128c0de60d7341fc0b8f6e0eddbb722539bbf4acf6d4befc1d5c4849f368dde8946a5b08ca
+LINKED_IN_API_KEY:          77ooucg8vaxhhi
+LINKED_IN_SECRET_KEY:       Xte6GFe9m5f2waSh
+MAILCHIMP_API_KEY:          6c893b8ef41fc43512891d459ea77d17-us7
+MAILTRAP_PASSWORD:          7da8f321191226ec
+MAILTRAP_PORT:              "2525"
+MAILTRAP_USER_NAME:         staging-1d1587a4ef928f76
+MAINTENANCE_PAGE_URL:       http://s3-eu-west-1.amazonaws.com/appsforgood-assets/maintenance/maintenance.html
+NEW_RELIC_APP_NAME:         network-staging-appsforgood
+NEW_RELIC_LICENSE_KEY:      6065eff3be6c18347f948c7b86f758d5b5fea90e
+REDIS_URL:                  redis://rediscloud:GwfaSYGUF5iEreHw@pub-redis-15035.us-east-1-3.6.ec2.redislabs.com:15035
+ROLLBAR:                    be3a89240fda41fa860adac8a502e2f5
+S3_BUCKET_NAME:             appsforgood-staging
+SEGMENT_IO_API_KEY:         901o5id5k8
+SEGMENT_IO_SECRET:          9kc0t9o098umymbxpvka
+SENDGRID_DOMAIN:            appsforgood.org
+SERVER_HOST:                localhost:3000/
+WEB_CONCURRENCY:            "2"
+SECRET_KEY_BASE:            "1cb8af38d485b42af647812a7900b22b748ae8e046bcd09ed311cf49a6d2f888e450773086b04586f4a4a22f7e3f331cc81559ce3eb12bcc08fa5b04eb53ca9f"
+SECRET_TOKEN:               "450831666dfdc42f4a94037c700e3025537a723c4d199fccaf5ee4ec83fb95c8890b10a93a2307959804f2744248cbda7ede64a8eea59c0e0a74d7eadaa1484c"
+
+STUDENT_SURVEY_ID: CTl3x1
+OFFLINE_EDUCATOR_SURVEY_ID: bKWdRS
+TYPEFORM_API_KEY: aba404055734648c4405bb5ed2975fa5e496ce23
+EDUCATOR_SURVEY_ID: sQX3GE
+PORTUGUESE_EDUCATOR_SURVEY_ID: fV1xVb
+
+staging:
+  GOOGLE_ANALYTICS:         "<script type=text/javascript>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-20301355-8']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>"
